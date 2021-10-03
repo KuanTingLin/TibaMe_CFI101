@@ -54,11 +54,11 @@ def main():
         print("full: ", full_cut(data))
         print("correct: ", correct_cut(data))
         print("search: ", search_cut(data))
-        print("paddle: ", paddle_cut(data))
+        # print("paddle: ", paddle_cut(data))
         print("TFIDF: ", tfidf_cut(data))
 
 
 if __name__ == '__main__':
-    jieba.enable_paddle()
+    # jieba.enable_paddle()
     main()
 
